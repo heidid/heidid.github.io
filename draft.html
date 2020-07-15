@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <title>Heidi Dong</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f8ff;
+  color: #214;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+/*header {
+  height: 200px;
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'Inter';
+  font-size: 58px;
+  font-weight: 700;
+}*/
+
+section {
+  margin-bottom: 35px;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.7;
+  margin: 18px 0;
+}
+
+ul {
+  margin: 18px 0;
+  padding-inline-start: 40px;
+}
+
+li {
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4B6CE2;
+  color: #3E61E0;
+  text-decoration: none;
+}
+
+a.project-link {
+  display: inline-block;
+  background: #f3effa;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#intro {
+  background: #f3effa;
+  padding: 60px 0;
+  margin-bottom: 0;
+}
+
+#intro .container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#intro img {
+  width: 40%;
+  margin-left: 3px;
+}
+
+#intro-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+#intro-text h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  margin-bottom: 45px;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+#links li {
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+footer {
+  background: #fefdff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 765px) {
+  #intro .container {
+    flex-direction: column;
+  }
+
+  #intro img {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  #intro-text {
+    margin-left: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <!-- <header>
+    <div class="container">
+      <h1>Heidi Dong</h1>
+    </div>
+  </header> -->
+  <section id="intro">
+    <div class="container">
+      <img src="me.jpg" alt="">
+      <div id="intro-text">
+        <h2>I'm currently a senior at UC Berkeley, where I engage with the design community and study computer science.</h2>
+        <ul id="links">
+          <li>Email: <a href="mailto:heidid@berkeley.edu" target="_blank">heidid@berkeley.edu</a></li>
+          <li>GitHub: <a href="https://github.com/heidid" target="_blank">@heidid</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/heididong" target="_blank">/in/heididong</a></li>
+          <li>Resume: <a href="https://www.dropbox.com/s/25sgle4bpgcv1vi/HeidiDong_resume2019.pdf?dl=0" target="_blank">pdf</a></li>
+          <li>Dog: <a href="https://instagram.com/enhdlessfluff" target="_blank">@enhdlessfluff</a></li>
+        </ul>  
+      </div>
+    </div>
+  </section>
+  
+  <main>
+    <div class="container">
+      <section>
+        <h2>I have experience with...</h2>
+        <ul>
+          <li>
+            <strong>frontend engineering</strong>, mostly in React. My most recent <a href="#" class="project-link">summer internship</a> was with <a href="https://www.nytimes.com/" target="_blank">The New York Times</a>.
+          </li>
+          <li>
+            <strong>thinking about design systems</strong>, from my <a href="#" class="project-link">past internship</a> at <a href="https://www.flexport.com/" target="_blank">Flexport</a>.
+          </li>
+          <li>
+            <strong>the human-centered design process</strong>. Read about <a href="#" class="project-link">client projects</a> I worked on through <a href="https://www.berkeleyinnovation.org/" target="_blank">Berkeley Innovation</a>.
+          </li>
+          <li>
+            <strong>teaching web design and development</strong>. Here's an <a href="#" class="project-link">archive</a> of educational material I've created.
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>I'm currently trying to get better at...</h2>
+        <ul>
+          <li>
+            <strong>graphic design and illustration</strong>, by creating <a href="#" class="project-link">outreach materials</a> for UC Berkeley's <a href="https://security.berkeley.edu/" target="_blank">Information Security Office</a>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>In the future, I think I would enjoy working on...</h2>
+        <ul>
+          <li>
+            <strong>design education</strong>. Right now, I'm helping the team behind <a href="http://idot-club.org">Innovative Designers of Tomorrow</a>, where we're developing a curriculum for high school students.
+          </li>
+          <li>
+            <strong>human-computer interaction research</strong>, to more widely explore the experiences we can design with technology and new media.
+          </li>
+          <li>
+            <strong>anything else</strong> that aligns with what's on this page!
+          </li>
+        </ul>
+      </section>
+    
+      <section>
+        <h2>Thanks to the classes I've taken at Berkeley, I want to learn more about...</h2>
+        <ul>
+          <li>
+            <strong>urban design and landscape architecture</strong>, particularly the social and cultural factors behind it.
+          </li>
+          <li>
+            <strong>improving food security and accessibility</strong>. Taking <a href="https://www.jillmiller.net/food-fight" target="_blank">Art 160</a> really opened my eyes to these issues, especially among students.
+          </li>
+          <li>
+            <strong>letterpress printing</strong>! It's a beautiful art form.
+          </li>
+          <li>
+            <strong>prototyping with electronics</strong>, which I've done a bit of with Arduino (see <a href="#" class="project-link">Nostrum</a> and <a href="#" class="project-link">Alphabet Board</a>).
+          </li>
+          <li>
+            <strong>3D modeling</strong>, since I'm so used to working in 2D space.
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <h2>Thanks for reading!</h2>
+      <p>
+        I last updated this page in July 2020. For a complete view of my past work (including stuff I made in middle school!), see my <a href="#">project archive</a>.
+      </p>
+    </div>
+  </footer>
+
+  
+</body>
+</html>

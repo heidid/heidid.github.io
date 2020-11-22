@@ -95,6 +95,14 @@
 
   
   <main>
+    {% if page.intro %}
+      <div id="project-intro">
+        <div class="container">
+          {{ page.intro | markdownify }}
+        </div>
+      </div>
+    {% endif %}
+
     <div class="container markdown-body" id="about-content-wrapper">
       {{ content }}
     </div>

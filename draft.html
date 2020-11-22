@@ -3,151 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Heidi Dong</title>
-<style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #fcfaff;
-  color: #2b1145;
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-}
-
-main {
-  padding: 60px 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 0 30px;
-}
-
-/*header {
-  height: 200px;
-  display: flex;
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Source Serif Pro', serif;
-  font-family: 'Inter';
-  font-size: 58px;
-  font-weight: 700;
-}*/
-
-section {
-  margin-bottom: 35px;
-}
-
-section:last-child {
-  margin-bottom: 0;
-}
-
-h2 {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 32px;
-  font-weight: normal;
-}
-
-p {
-  line-height: 1.7;
-  margin: 18px 0;
-}
-
-ul {
-  margin: 18px 0;
-  padding-inline-start: 40px;
-}
-
-li {
-  line-height: 1.7;
-  margin-bottom: 10px;
-}
-
-a {
-  color: #4B6CE2;
-  color: #3E61E0;
-  text-decoration: none;
-}
-
-/*a.project-link {
-  display: inline-block;
-  background: #f3effa;
-  padding: 0 3px;
-  border-radius: 4px;
-}*/
-
-a:hover {
-  text-decoration: underline;
-}
-
-#intro {
-  background: #faf5fe;
-  padding: 60px 0;
-  margin-bottom: 0;
-}
-
-#intro .container {
-  display: flex;
-  align-items: center;
-  margin: auto;
-}
-
-#intro img {
-  width: 40%;
-  margin-left: 3px;
-}
-
-#intro-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 35px;
-}
-
-#intro-text h2 {
-  font-size: 30px;
-  line-height: 1.4;
-  margin-bottom: 50px;
-}
-
-#intro-text p {
-  width: 300px;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-footer {
-  background: #fefdff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-footer p {
-  margin-bottom: 0;
-}
-
-@media (max-width: 765px) {
-  #intro .container {
-    flex-direction: column;
-  }
-
-  #intro img {
-    width: 60%;
-    margin-bottom: 40px;
-  }
-
-  #intro-text {
-    margin-left: 0;
-  }
-}
-</style>
 </head>
 <body>
   <!-- <header>
@@ -155,20 +13,106 @@ footer p {
       <h1>Heidi Dong</h1>
     </div>
   </header> -->
-  <section id="intro">
-    <div class="container">
-      <img src="me.jpg" alt="">
-      <div id="intro-text">
-        <h2>I’m currently a senior at UC Berkeley, where I engage with the design community and study computer science.</h2>
-        <p>
-          For a quick rundown of my work, here is my <a href="https://www.dropbox.com/s/25sgle4bpgcv1vi/HeidiDong_resume2019.pdf?dl=0" target="_blank">resume</a>. Reach out to me at <a href="mailto:heidid@berkeley.edu">heidid@berkeley.edu</a>.
-        </p>
-      </div>
+  <div id="sidebar">
+    <!-- <div id="sidebar-left-spacing"></div> -->
+    <div id="sidebar-content">
+      <h1>Heidi Dong</h1>
+      <nav>
+        <ol>
+          <li>
+            <a href="#" class="active">
+              <div class="navlink-image">
+                <img src="me_tiny.jpg">
+              </div>
+              <div class="navlink-description">
+                <strong>About</strong>
+                <span>My interests and what I'm up to</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/nytcooking.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>New York Times internship</strong>
+                <span>Frontend engineering on NYT Cooking</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/sitelab.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>SITELAB Urban Studios</strong>
+                <span>Exploring placemaking in San Francisco</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/flexport.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>Flexport internship</strong>
+                <span>Design systems & frontend infrastructure</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/crucible.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>The Crucible</strong>
+                <span>Redesigning online art class registration</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/paypal.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>PayPal internship</strong>
+                <span>Improving the merchant onboarding flow</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/omnisci.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>OmniSci</strong>
+                <span>Designing an educational web app</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/keewi.png" class="navlink-image">
+              <div class="navlink-description">
+                <strong>Keewi internship</strong>
+                <span>Mobile app and website redesign</span>
+              </div>
+            </a>
+          </li>
+        </ol>
+      </nav>
     </div>
-  </section>
+  </div>
+
   
   <main>
-    <div class="container">
+    <section id="intro">
+      <div class="container">
+        <img src="me.jpg" alt="">
+        <div id="intro-text">
+          <h2>I’m currently a senior at UC Berkeley, where I engage with the design community and study computer science.</h2>
+          <p>
+            For a quick rundown of my work, here is my <a href="https://www.dropbox.com/s/25sgle4bpgcv1vi/HeidiDong_resume2019.pdf?dl=0" target="_blank">resume</a>. Reach out to me at <a href="mailto:heidid@berkeley.edu">heidid@berkeley.edu</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" id="about-content-wrapper">
       <section>
         <h2>I have experience with...</h2>
         <ul>
@@ -235,16 +179,16 @@ footer p {
         </ul>
       </section>
     </div>
+    <footer>
+      <div class="container">
+        <h2>Thanks for reading!</h2>
+        <p>
+          I last updated this site in November 2020. For the complete details of my past work (including stuff I made in middle school!), see my <a href="/archive">project archive</a>.
+        </p>
+      </div>
+    </footer>
   </main>
   
-  <footer>
-    <div class="container">
-      <h2>Thanks for reading!</h2>
-      <p>
-        I last updated this page in July 2020. For the complete details of my past work (including stuff I made in middle school!), see my <a href="/archive">project archive</a>.
-      </p>
-    </div>
-  </footer>
 
   
 </body>

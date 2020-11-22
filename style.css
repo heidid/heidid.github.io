@@ -182,8 +182,9 @@ nav .navlink-description span {
   font-family: 'Source Serif Pro';
 }
 
-#intro {
-  background: #faf5fe;
+#intro,
+#project-intro {
+  background: var(--light-purple-2);
   padding: 60px 0;
   margin-bottom: 0;
 }
@@ -220,6 +221,10 @@ nav .navlink-description span {
 #about-content-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+#project-intro {
+
 }
 
 footer {

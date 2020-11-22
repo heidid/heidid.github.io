@@ -1,16 +1,20 @@
 ---
 purpose: frontend engineering
+intro: |
+  ## New York Times internship
+
+  **Time period:** June 2020 – Present
+
+  **Role:** Frontend Engineering Intern
+
+  **Keywords:** React, Backbone, Rails
+
+  I'm interning on the frontend team of NYT Cooking!
+
 ---
 
-# New York Times
 
-**Time period:** June 2020 – Aug 2020
-
-**Role:** Software Engineering Intern
-
-**Keywords:** React, Backbone, Rails
-
-I interned on the frontend team of NYT Cooking! I made major improvements to the site footer, both visually and under the hood:
+Over the summer, I made major improvements to the site footer, both visually and under the hood:
 
 1. Implement design updates
 2. Display on Recipe Box page

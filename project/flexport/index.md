@@ -1,16 +1,17 @@
 ---
 purpose: design systems & frontend engineering
+intro: |
+  ## Flexport
+
+  **Time period:** May 2018 – Aug 2018
+
+  **Role:** Software Engineering Intern
+
+  **Keywords:** React, Node.js, design system
+
+  I interned on the Frontend Infrastructure / Design System team in SF, where I worked on Flexport's design system, Latitude, and improved the [documentation site](https://www.flexport.com/design/legacy).
 ---
 
-# Flexport
-
-**Time period:** May 2018 – Aug 2018
-
-**Role:** Software Engineering Intern
-
-**Keywords:** React, Node.js, design system
-
-I interned on the Frontend Infrastructure / Design System team in SF, where I worked on Flexport's design system, Latitude, and improved the [documentation site](https://www.flexport.com/design/legacy).
 
 ## SettingsToggle component
 I brought the [SettingsToggle component](https://www.flexport.com/design/legacy/components/SettingsToggle) into Latitude.

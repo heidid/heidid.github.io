@@ -231,6 +231,17 @@ nav .navlink-description span {
   padding-bottom: 60px;
 }
 
+#project-intro {
+  background: var(--light-purple-2);
+  padding: 60px 0;
+
+  h2 {
+    font-size: 5.5rem;
+    margin-bottom: 50px;
+    margin-top: 4px;
+  }
+}
+
 footer {
   background: #fefdff;
   padding: 60px 0;

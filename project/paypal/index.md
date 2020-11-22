@@ -1,14 +1,16 @@
 ---
 purpose: frontend engineering & UI design
+intro: |
+  # PayPal
+
+  **Time period:** May 2018 –  Aug 2018
+
+  **Role:** Software Engineering Intern
+
+  **Keywords:** React, Node.js
+
 ---
 
-# PayPal
-
-**Time period:** May 2018 –  Aug 2018
-
-**Role:** Software Engineering Intern
-
-**Keywords:** React, Node.js
 
 I interned on the Merchant Onboarding team in San Jose, and worked on new UI components to lessen confusion throughout the signup flow. Specifically, I created a date input component ([seen here](https://www.paypal.com/bizsignup/#/personalInfo)), progress bar, and credit card statement descriptor in React, and integrated these into the Node.js webapp.
 

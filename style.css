@@ -6,11 +6,12 @@
 
 html {
   font-size: 10px;
-  --scrollbarBG: #fff;
-  --thumbBG: #ccf;
-  /*--text-color: #2b1145;*/
-  --text-color: #3b175f;
-  --link-color: #663ee0;
+  --light-purple-1: #F5EEFD;
+  --light-purple-2: #FAF6FE;
+  --light-purple-3: #FCFBFF;
+  --scrollbar-handle-color: #A99ECD;
+  --text-color: #3B1A72;
+  --link-color: #6546EA;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 body,
 #sidebar {
   scrollbar-width: thin;
-  scrollbar-color: #9B6AEB var(--scrollbarBG);
+  scrollbar-color: #9B6AEB var(--light-purple-1);
 }
 body::-webkit-scrollbar,
 #sidebar::-webkit-scrollbar {
@@ -30,13 +31,13 @@ body::-webkit-scrollbar,
 }
 body::-webkit-scrollbar-track,
 #sidebar::-webkit-scrollbar-track {
-  background: var(--scrollbarBG);
+  background: var(--light-purple-1);
 }
 body::-webkit-scrollbar-thumb,
 #sidebar::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
+  background-color: var(--scrollbar-handle-color);
   border-radius: 10px;
-  border: 3px solid var(--scrollbarBG);
+  border: 3px solid var(--light-purple-1);
 }
 
 main {
@@ -108,8 +109,7 @@ a:hover {
   display: flex;
   height: 100%;
   position: fixed;
-  /*background: #f3effa;*/
-  background: #fff;
+  background: var(--light-purple-1);
   /*border-right: 1px solid #9B6AEB;*/
   overflow: auto;
 }
@@ -132,7 +132,7 @@ nav li {
 }
 
 nav li:hover {
-  background: #fff;
+  /*background: #fff;*/
 }
 
 nav li:hover a {
@@ -154,7 +154,7 @@ nav li a {
 }
 
 nav a.active {
-  background: #faf5fe;
+  background: var(--light-purple-3);
 }
 
 nav .navlink-image {
@@ -163,6 +163,7 @@ nav .navlink-image {
   height: 52px;
   overflow: hidden;
   margin-right: 15px;
+  border-radius: 50%;
 }
 
 nav .navlink-image img {

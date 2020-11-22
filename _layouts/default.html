@@ -15,7 +15,7 @@
       <nav>
         <ol>
           <li>
-            <a href="/" class="active">
+            <a href="/">
               <div class="navlink-image">
                 <img src="/img/me_tiny.jpg">
               </div>
@@ -26,7 +26,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/nytimes">
+            <a href="/project/nytimes/">
               <img src="/img/nytcooking.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>New York Times internship</strong>
@@ -35,7 +35,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/sitelab">
+            <a href="/project/sitelab/">
               <img src="/img/sitelab.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>SITELAB Urban Studios</strong>
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/flexport">
+            <a href="/project/flexport/">
               <img src="/img/flexport.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>Flexport internship</strong>
@@ -53,7 +53,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/crucible">
+            <a href="/project/crucible/">
               <img src="/img/crucible.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>The Crucible</strong>
@@ -62,7 +62,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/paypal">
+            <a href="/project/paypal/">
               <img src="/img/paypal.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>PayPal internship</strong>
@@ -71,7 +71,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/omnisci">
+            <a href="/project/omnisci/">
               <img src="/img/omnisci.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>OmniSci</strong>
@@ -80,7 +80,7 @@
             </a>
           </li>
           <li>
-            <a href="/project/keewi">
+            <a href="/project/keewi/">
               <img src="/img/keewi.png" class="navlink-image">
               <div class="navlink-description">
                 <strong>Keewi internship</strong>
@@ -107,5 +107,14 @@
   </main>
 
   
+  <script type="text/javascript">
+    const navlinks = document.querySelectorAll('nav a');
+    for (let i = 0; i < navlinks.length; i++) {
+      if (navlinks[i].href === location.href) {
+        navlinks[i].classList.add('active');
+      }
+    }
+  </script>
+
 </body>
 </html>

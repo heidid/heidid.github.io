@@ -5,9 +5,10 @@
 }
 
 html {
+  font-size: 10px;
   --scrollbarBG: #fff;
   --thumbBG: #ccf;
-  --sidebar-width: 36vw;
+  --sidebar-width: 40vw;
   /*--text-color: #2b1145;*/
   --text-color: #3b175f;
   --link-color: #663ee0;
@@ -17,7 +18,7 @@ body {
   background: #fcfaff;
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 1.7rem;
 }
 body,
 #sidebar {
@@ -44,10 +45,8 @@ main {
 }
 
 .container {
-  max-width: 800px;
-  /*margin: auto;*/
-  margin-left: 60px;
-  padding: 0 30px;
+  max-width: 43vw;
+  padding-left: 3vw;
 }
 
 /*header {
@@ -60,7 +59,7 @@ h1 {
   /*font-family: 'Source Serif Pro', serif;*/
   font-family: 'Inter';
   padding: 60px 30px 40px 15px;
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: 800;
 }
 
@@ -74,7 +73,7 @@ section:last-child {
 
 h2 {
   font-family: 'Source Serif Pro', serif;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: normal;
 }
 
@@ -112,7 +111,7 @@ a:hover {
   width: 200px;
 }*/
 #sidebar-content {
-  /*flex-shrink: 0;*/
+  min-width: 23vw;
 }
 #sidebar {
   /*max-width: 660px;*/
@@ -122,12 +121,15 @@ a:hover {
   display: flex;
   height: 100%;
   position: fixed;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 1.5vw;
   /*background: #f3effa;*/
   background: #fff;
   /*border-right: 1px solid #9B6AEB;*/
   overflow: auto;
+}
+
+nav {
+  padding-bottom: 50px;
 }
 
 nav ul {
@@ -137,9 +139,10 @@ nav ul {
 
 nav li {
   display: block;
+  max-width: 400px;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 nav li:hover {
@@ -170,8 +173,8 @@ nav a.active {
 
 nav .navlink-image {
   flex-shrink: 0;
-  width: 57px;
-  height: 57px;
+  width: 52px;
+  height: 52px;
   overflow: hidden;
   margin-right: 15px;
 }
@@ -183,10 +186,12 @@ nav .navlink-image img {
 nav .navlink-description {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
 }
 
 nav .navlink-description span {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-family: 'Source Serif Pro';
 }
 
@@ -214,19 +219,20 @@ nav .navlink-description span {
 }
 
 #intro-text h2 {
-  font-size: 30px;
+  font-size: 3rem;
   line-height: 1.4;
   margin-bottom: 50px;
 }
 
 #intro-text p {
-  width: 300px;
+  max-width: 300px;
   line-height: 1.5;
   margin-bottom: 0;
 }
 
 #about-content-wrapper {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer {
@@ -251,5 +257,9 @@ footer p {
 
   #intro-text {
     margin-left: 0;
+  }
+
+  .navlink-description span {
+    display: none;
   }
 }

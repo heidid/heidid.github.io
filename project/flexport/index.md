@@ -1,7 +1,7 @@
 ---
 purpose: design systems & frontend engineering
 intro: |
-  ## Flexport
+  ## Flexport internship
 
   **Time period:** May 2018 – Aug 2018
 

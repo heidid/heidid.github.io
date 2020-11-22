@@ -41,7 +41,7 @@ Throughout this process, I learned a lot about how to structure components, work
 I was also responsible for updating unit tests and functional tests related to the footer.
 
 
-# Learnings
+## Learnings
 - getting better at reaching out to people
 - reviewing PRs
 - recipes

@@ -1,13 +1,13 @@
 ---
 purpose: frontend engineering & UI design
 intro: |
-  # PayPal
+  ## PayPal
 
   **Time period:** May 2018 –  Aug 2018
 
   **Role:** Software Engineering Intern
 
-  **Keywords:** React, Node.js
+  **Keywords:** React, Node.js, UI design
 
 ---
 

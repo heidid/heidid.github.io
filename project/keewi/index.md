@@ -1,6 +1,6 @@
 ---
 intro: |
-  ## Keewi
+  ## Keewi internship
 
   **Time period:** March 2017 – May 2018
 
@@ -8,7 +8,7 @@ intro: |
 
   **Keywords:** HTML, CSS, Bootstrap, WordPress, JavaScript (CoffeeScript, React), Django, Photoshop, Illustrator, Invision, product design, UI/UX design
 
-  **URL:** https://www.keewi-inc.com
+  **URL:** [https://www.keewi-inc.com](https://www.keewi-inc.com)
 
   I interned with Keewi over Summer 2017, and also worked with them remotely before and afterwards. I worked on a few projects, including redesigning their landing page, redesigning their mobile app, and adding features to their webapp.
 ---

@@ -1,17 +1,29 @@
-hello! I'm Heidi, a senior at UC Berkeley studying computer science + design innovation. this is to become some sort of personal website, supposedly. for now, here's my [email](mailto:heidid@berkeley.edu), [resume](https://www.dropbox.com/s/px71vfig3pfmq31/HeidiDong_resume2020.pdf?dl=0) (updated 08/2020), [LinkedIn](https://www.linkedin.com/in/heididong/), and [dog](https://www.instagram.com/enhdlessfluff/).
+## hello!
+I'm Heidi, a senior at UC Berkeley studying computer science + design innovation. this is to become some sort of personal website, supposedly..
 
 
-some stuff I've been working on:
-- interning on the frontend team of [NYT Cooking](https://cooking.nytimes.com/)!
-- web/graphic design for the university's [Information Security Office](https://security.berkeley.edu/)
-- once classes start, I'll be a reader for [CS 160](http://teaching.paulos.net/cs160_FL2020/) (UI Design)
+
+### I have experience with...
+- **frontend engineering**. Currently, I'm lucky to be interning with The New York Times, working on [NYT Cooking](https://cooking.nytimes.com/)!
+- **thinking about design systems**, from my past internship at Flexport.
+- **the human-centered design process**, having worked on product design for clients through [Berkeley Innovation](https://www.berkeleyinnovation.org/).
+- **teaching web design and development** to 100+ students every week, as a previous instructor of the [Web Design DeCal](https://wdd.io/) (CS 198).
 
 
-a few student design orgs I've been involved in:
-- advisor for [Berkeley Innovation](https://www.berkeleyinnovation.org/)
-- working on a new website for [Innovative Designers of Tomorrow](http://idot-club.org/)
-- taught the [Web Design DeCal](https://wdd.io/) for the past two semesters
+### I’m currently trying to get better at...
+- **graphic design and illustration**, by creating educational toolkits for UC Berkeley’s [Information Security Office](https://security.berkeley.edu/).
 
-thanks for reading!
+
+### In the future, I think I would enjoy working on...
+- **designing for education** 
+- **interactive storytelling**, and use my technical skills for more creative forms.
+- **human-computer interaction research**, to explore and critique the experiences we can facilitate with technology and new media.
+
+
+### Thanks to the classes I’ve taken at Berkeley, I want to learn more about...
+- **urban design**, with an emphasis on the social and cultural factors behind our landscape.
+- **improving food security**. Taking Art 160 really opened my eyes to these issues, especially among students.
+- **printmaking**! Particularly letterpress and relief prints.
+
 
 _—Heidi_

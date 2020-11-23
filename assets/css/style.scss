@@ -10,14 +10,14 @@ html {
   font-size: 10px;
   --light-purple-1: #F5EEFD;
   --light-purple-2: #FAF6FE;
-  --light-purple-3: #FCFBFF;
+  --light-purple-3: #FDFCFF;
   --scrollbar-handle-color: #A99ECD;
   --text-color: #3B1A72;
   --link-color: #6546EA;
 }
 
 body {
-  background: #fcfaff;
+  background: var(--light-purple-3);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem;

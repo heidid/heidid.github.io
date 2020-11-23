@@ -21,7 +21,7 @@
               </div>
               <div class="navlink-description">
                 <strong>About</strong>
-                <span>My interests and what I'm up to</span>
+                <span>My interests and what I’m up to</span>
               </div>
             </a>
           </li>
@@ -95,6 +95,20 @@
 
   
   <main>
+    {% if page.main_intro %}
+      <section id="intro">
+        <div class="container">
+          <img src="img/me.jpg" alt="">
+          <div id="intro-text">
+            <h2>I’m Heidi — currently a senior at UC Berkeley, mostly spending time exploring design and software engineering.</h2>
+            <p>
+              For a quick rundown of my work, here is my <a href="https://www.dropbox.com/s/25sgle4bpgcv1vi/HeidiDong_resume2019.pdf?dl=0" target="_blank">resume</a>. Reach out to me at <a href="mailto:heidid@berkeley.edu">heidid@berkeley.edu</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
     {% if page.intro %}
       <div id="project-intro">
         <div class="container">

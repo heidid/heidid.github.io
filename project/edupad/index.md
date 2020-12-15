@@ -12,7 +12,7 @@ intro: |
 ---
 
 ## Project Overview
-In collaboration with HP, we explored the experiences of virtual elementary school classrooms to improve hands-on learning for teachers and students ages 5 to 8. I was primarily responsible for leading user research and prototyping the software component of our product.
+In collaboration with HP, we explored the experiences of virtual elementary school classrooms to improve hands-on learning for teachers and students ages 5 to 8. I was primarily responsible for leading user research and designing our product's web app.
 
 Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process. If we had more time on this project, I would want to test our prototype with students in addition to teachers.
 

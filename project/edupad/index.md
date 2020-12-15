@@ -139,7 +139,7 @@ Our online component would integrate with Clever, which many schools already use
 
 ![sign-in screen](screen_sign-in.png)
 
-They can see their schedule for the day and join class with one click. This relates back to our teacher interviews where we learned that maintaining a daily routine is important.
+They can see their schedule for the day and join class with one click. This relates back to our teacher interviews where we learned that **maintaining a daily routine** is important.
 
 ![sign-in screen](screen_join-class.png)
 
@@ -149,11 +149,17 @@ In class, teachers can start a drawing activity by adding instructions and setti
 
 Back on the student side, they now see the drawing interface. Whatever they draw with the tablet will show up on screen. They can also signal to the teacher with the “Raise Hand” button or “I’m Done!” button
 
+![student drawing activity screen](screen_student-drawing.png)
+
 ![start drawing activity screen](screen_student-interface.png)
 
 Once the activity is started, teachers see a grid of all of their students drawings in real time. They can then select a student to see a bigger view of their drawing to give feedback on.
 
 ![teacher overview screen](screen_teacher-overview.png)
+
+This addresses pain points surrounding **giving feedback on student work**.
+
+![teacher feedback screen](screen_teacher-feedback.png)
 
 
 ## User Testing
@@ -165,6 +171,7 @@ Some suggestions for improvement were to implement a show-and-tell feature so te
 
 Overall, both teachers thought our product would be very useful; one of them said, **“This would be incredible, if I could have this right now and see what my kids are writing.”**
 
+---
 
 ### Image credits
 - Student and teacher avatars + laptop graphic from Freepik

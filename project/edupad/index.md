@@ -103,12 +103,16 @@ Since many students already have some sort of laptop they use to attend classes,
 
 
 ## Prototyping
+Half of our team worked on the physical prototype while the other half (including me) focused on the digital prototype.
+
 ### Physical Device Prototype
 Here are some mockups of how we envisioned our product:
 
-![EduPad mockup](edupad1.png)
+![EduPad mockup](edupad.png)
 
 ![EduPad mockups](edupad2.png)
+
+(lifestyle photography below provided by HP)
 
 ![EduPad mockups in HP lifestyle photos](edupad3.png)
 
@@ -130,9 +134,40 @@ As we moved into high-fidelity mockups, I kept in mind the visual language that 
 I chose Proxima Nova as the main font because its taller x-height gives it a friendly appearance that is easy to read.
 
 
+### Product Features
+Our online component would integrate with Clever, which many schools already use as their one-stop hub of classroom apps. This way, students can easily log on with a system they’re familiar with.
 
+![sign-in screen](screen_sign-in.png)
 
+They can see their schedule for the day and join class with one click. This relates back to our teacher interviews where we learned that maintaining a daily routine is important.
+
+![sign-in screen](screen_join-class.png)
+
+In class, teachers can start a drawing activity by adding instructions and setting an optional timer.
+
+![start drawing activity screen](screen_start-drawing.png)
+
+Back on the student side, they now see the drawing interface. Whatever they draw with the tablet will show up on screen. They can also signal to the teacher with the “Raise Hand” button or “I’m Done!” button
+
+![start drawing activity screen](screen_student-interface.png)
+
+Once the activity is started, teachers see a grid of all of their students drawings in real time. They can then select a student to see a bigger view of their drawing to give feedback on.
+
+![teacher overview screen](screen_teacher-overview.png)
 
 
 ## User Testing
+We tested our prototypes with 2 teachers by walking them through the prototype on Figma, and showing pictures of the physical prototype.
+
+Originally, we had considered letting teachers discuss questions with students in a private breakout room. However, the feedback we got pointed out two issues: first, having a teacher and student alone in a breakout room is a safety risk, and in at least some school districts, not allowed; second, unless there was another adult to supervise the rest of the students, the rest of the class cannot be left unattended. 
+
+Some suggestions for improvement were to implement a show-and-tell feature so teachers could showcase student work, let teachers check work quickly by giving checkmarks for perfect scores and circling parts that students need to improve on, and let students save their work for later and finish them, for example, at the end of class. 
+
+Overall, both teachers thought our product would be very useful; one of them said, **“This would be incredible, if I could have this right now and see what my kids are writing.”**
+
+
+### Image credits
+- Student and teacher avatars + laptop graphic from Freepik
+- Icons from Font Awesome
+- Background pattern from Subtle Patterns
 

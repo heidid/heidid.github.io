@@ -14,7 +14,7 @@ intro: |
 ## Project Overview
 In collaboration with HP, we explored the experiences of virtual elementary school classrooms to improve hands-on learning for teachers and students ages 5 to 8. I was primarily responsible for leading user research and prototyping the software component of our product.
 
-Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process.
+Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process. 
 
 
 ## Identifying Opportunities
@@ -40,13 +40,13 @@ We set out with these questions:
 - How might we improve the teaching experience for teachers of all skill levels and backgrounds?
 
 
-I developed our user research plan, and reached out to over 120 teachers with a survey. From the 18 responses, we learned that the top concerns with distance learning are:
+**I developed our user research plan, and reached out to over 120 teachers with a survey.** From the 18 responses, we learned that the top concerns with distance learning are:
 
 - Lack of interaction with the teacher and classmates during class.
 - Lack of social activities outside of class.
 - Difficulties completing/submitting assignments, and learning new material compared to pre-pandemic learning
 
- We interviewed 3 elementary school teachers and a school IT director and learned:
+**We interviewed 3 elementary school teachers and a school IT director** and learned:
 
 - **It’s difficult to track students’ academic progress.** Teachers can’t walk around and see how the students are doing, or give immediate feedback as they are working. Younger students should be using pencil and paper because they’re still developing writing skills, but it’s difficult to implement that online.
 - What matters most right now is **building relationships** and **maintaining a routine**.
@@ -54,7 +54,7 @@ I developed our user research plan, and reached out to over 120 teachers with a 
 - IT acts as a gatekeeper and one-stop shop for software product licenses, and advises teachers to address their needs.
 
 
-We also sat in on 3 videocall classrooms to directly observe the dynamics of elementary school students learning online:
+**We also sat in on 3 videocall classrooms** to directly observe the dynamics of elementary school students learning online:
 
 - Remote reading activities are difficult, and many students are still learning to read.
 - It’s hard for students to stay focused; we saw many of them fidget, play with pencils, and make faces at the camera
@@ -92,14 +92,47 @@ We began by each generating 10 concepts, prioritizing quantity over quality. We 
 - putting the ideas in a 2x2 matrix of Impact vs. Cost/Effort to Produce
 - using a weighted matrix to score our ideas based on product requirements
 
+Some of our final remaining ideas were primarily software-based and some were hardware, so we looked to combine these concepts into a single product.
 
+## Final Concept
+We wanted to build off the assumption that students already have school-issued Chromebook or other computing device that they are using for remote learning.
 
+**Our final concept was a USB-attachable tablet with a surface for writing and drawing, and tactile buttons for video calling shortcuts.** It would come with a stylus so students can write on the surface, and pair with our custom-designed videocall web app that integrates drawing directly into the digital classroom.
 
-
-
+Since many students already have some sort of laptop they use to attend classes, our product would support and be compatible with existing technology. 
 
 
 ## Prototyping
+### Physical Device Prototype
+Here are some mockups of how we envisioned our product:
+
+![EduPad mockup](edupad1.png)
+
+![EduPad mockups](edupad2.png)
+
+![EduPad mockups in HP lifestyle photos](edupad3.png)
+
+### Web App Prototype
+I primarily worked on our web app prototype in Figma. I started out by drawing **user flow diagrams**:
+
+<a href="webapp-flow.png" target="_blank">
+![web app user flow diagrams](webapp-flows.png)
+</a>
+
+Then **low-fidelity wireframing**:
+
+![low-fidelity wireframes of web app](lofi.png)
+
+As we moved into high-fidelity mockups, I kept in mind the visual language that we wanted to maintain. Since we were designing for kids who are still developing their digital literacy, we wanted to use bright colors and tactile-looking UI elements:
+
+![videocall controls](student-videocall-controls.png)
+
+I chose Proxima Nova as the main font because its taller x-height gives it a friendly appearance that is easy to read.
+
+
+
+
+
 
 ## User Testing
 

@@ -14,7 +14,7 @@ intro: |
 ## Project Overview
 In collaboration with HP, we explored the experiences of virtual elementary school classrooms to improve hands-on learning for teachers and students ages 5 to 8. I was primarily responsible for leading user research and prototyping the software component of our product.
 
-Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process. 
+Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process. If we had more time on this project, I would want to test our prototype with students in addition to teachers.
 
 
 ## Identifying Opportunities
@@ -171,9 +171,11 @@ Some suggestions for improvement were to implement a show-and-tell feature so te
 
 Overall, both teachers thought our product would be very useful; one of them said, **“This would be incredible, if I could have this right now and see what my kids are writing.”**
 
----
 
-### Image credits
+## Acknowledgements
+Thanks to Ron Zhang from HP and Professor Kosa Goucher-Lambert for their guidance on this project!
+
+**Image credits**
 - Student and teacher avatars + laptop graphic from Freepik
 - Icons from Font Awesome
 - Background pattern from Subtle Patterns

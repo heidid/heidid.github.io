@@ -30,12 +30,6 @@ Through this project, I learned a lot about collaborating online; I had never do
 - how technical difficulties impact teachers and students who are not used to using so much technology.
 
 
-**Customer segmentation:** We created a customer segmentation of teachers and students to better understand who we want our target audience to be.
-
-- Teachers were segmented based on **teaching styles** and how much they incorporated technology in their classrooms. We hypothesized that the more **low-tech teachers** are most impacted by the pandemic
-- Students were segmented based on **learning styles**. We hypothesized that the **physical (kinesthetic) learners** and **social learners** are most impacted by the pandemic
-
-
 Overall, we determined that we would center our project around elementary school teachers and students in kindergarten through third grade.
 
 
@@ -72,9 +66,11 @@ Based on our research insights, we created our teacher persona, Amy:
 
 ![description of our teacher persona](teacher-persona.png)
 
-We organized a journey of Amy's day:
+We organized a journey of Amy's day (click image for full size):
 
+<a href="teacher-journey.png" target="_blank">
 ![journey map for teacher persona](teacher-journey.png)
+</a>
 
 We decided to focus our product opportunity on the **teaching a lesson** part of the journey.
 

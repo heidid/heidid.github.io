@@ -14,6 +14,8 @@ intro: |
 ## Project Overview
 In collaboration with HP, we explored the experiences of virtual elementary school classrooms to improve hands-on learning for teachers and students ages 5 to 8. I was primarily responsible for leading user research and prototyping the software component of our product.
 
+Through this project, I learned a lot about collaborating online; I had never done a design project completely remotely before. I learned to use some new methods, such as a weighted matrix, as a part of our process.
+
 
 ## Identifying Opportunities
 **Stakeholders:** Initially, we created a 2x2 matrix to help us identify the key stakeholders who would be involved in our product opportunity. This helped us determine that **younger children**, **elementary school teachers**, and **those who teach hands-on subjects** are impacted by distance learning the most.
@@ -30,16 +32,76 @@ In collaboration with HP, we explored the experiences of virtual elementary scho
 
 **Customer segmentation:** We created a customer segmentation of teachers and students to better understand who we want our target audience to be.
 
-- Teachers were segmented based on **teaching styles** and how much they incorporated technology in their classrooms. We hypothesized that the more **low-tech teachers** are most impacted by the pandemic, and thus our product should address their needs more.
-- Students were segmented based on **learning styles**. We hypothesized that the **physical (kinesthetic) learners** and **social learners** are most impacted by the pandemic, and thus our product should address their needs more.
+- Teachers were segmented based on **teaching styles** and how much they incorporated technology in their classrooms. We hypothesized that the more **low-tech teachers** are most impacted by the pandemic
+- Students were segmented based on **learning styles**. We hypothesized that the **physical (kinesthetic) learners** and **social learners** are most impacted by the pandemic
 
 
-Overall, we determined that we would center our project around elementary school teachers and students in kindergarten through third grade..
+Overall, we determined that we would center our project around elementary school teachers and students in kindergarten through third grade.
 
 
 ## User Research
+We set out with these questions:
+
+- How might we improve the learning experience for K-3rd grade students during remote learning and beyond?
+- How might we improve the teaching experience for teachers of all skill levels and backgrounds?
+
+
+I developed our user research plan, and reached out to over 120 teachers with a survey. From the 18 responses, we learned that the top concerns with distance learning are:
+
+- Lack of interaction with the teacher and classmates during class.
+- Lack of social activities outside of class.
+- Difficulties completing/submitting assignments, and learning new material compared to pre-pandemic learning
+
+ We interviewed 3 elementary school teachers and a school IT director and learned:
+
+- **It’s difficult to track students’ academic progress.** Teachers can’t walk around and see how the students are doing, or give immediate feedback as they are working. Younger students should be using pencil and paper because they’re still developing writing skills, but it’s difficult to implement that online.
+- What matters most right now is **building relationships** and **maintaining a routine**.
+- When asked about their thoughts on the future of learning, the teachers expressed concern and uncertainty.
+- IT acts as a gatekeeper and one-stop shop for software product licenses, and advises teachers to address their needs.
+
+
+We also sat in on 3 videocall classrooms to directly observe the dynamics of elementary school students learning online:
+
+- Remote reading activities are difficult, and many students are still learning to read.
+- It’s hard for students to stay focused; we saw many of them fidget, play with pencils, and make faces at the camera
+- Remote learning is much slower than in-person learning.
+
+
+## Research Synthesis
+Based on our research insights, we created our teacher persona, Amy:
+
+![description of our teacher persona](teacher-persona.png)
+
+We organized a journey of Amy's day:
+
+![journey map for teacher persona](teacher-journey.png)
+
+We decided to focus our product opportunity on the **teaching a lesson** part of the journey.
+
+At this point we finally had enough data to revise our problem statement, since our initial problem statement being very broad about remote learning. We constructed an affinity map of opportunities based on our research insights. After 3 rounds of dot voting and discussion, we converged on a final opportunity: **How might we make remote learning more tangible/hands-on for K-3rd grade students by combining digital and physical methods?**
+
 
 ## Ideation
+We constructed these product requirements to help guide our ideation:
+
+- The product must be affordable and easy to use for both students and teachers.
+- It must improve student engagement in class.
+- It should help teachers teachers to grade and give feedback on student work
+- It should help teachers to distribute work and monitor student activity
+
+We began by each generating 10 concepts, prioritizing quantity over quality. We then did a structured group brainwriting exercise, where everyone selects three ideas of their own for someone else to brainstorm off of to create three additional ideas. We did two rounds of this exercise, then narrowed down our ~50 concepts by:
+
+- clustering our concepts into emerging themes
+- merging and deleting some redundnat ideas
+- putting the ideas in a 2x2 matrix of Impact vs. Cost/Effort to Produce
+- using a weighted matrix to score our ideas based on product requirements
+
+
+
+
+
+
+
 
 ## Prototyping
 

@@ -73,6 +73,11 @@ h2 {
   font-family: 'Source Serif Pro', serif;
   font-size: 3.2rem;
   font-weight: normal;
+  padding-top: 25px;
+  
+  &:first-child {
+    padding-top: 0;
+  }
 }
 
 p {

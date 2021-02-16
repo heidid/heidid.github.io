@@ -3,7 +3,7 @@ purpose: frontend engineering & UI design
 intro: |
   ## PayPal
 
-  **Time period:** May 2018 –  Aug 2018
+  **Time period:** May 2018 – Aug 2018
 
   **Role:** Software Engineering Intern
 
@@ -23,4 +23,4 @@ Here's my project summarized in a poster:
 
 Alternatively, here's the poster summarized in an amusing video:
 
-<iframe src="https://drive.google.com/file/d/1UdKzEZ_9JpF2civrumDQqvds7BUP4Xt-/preview" style="width: 100%; height: 500px;"></iframe>
+<iframe style="width: 100%; height: 500px;" src="https://www.youtube.com/embed/_Eqiim3W5QU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

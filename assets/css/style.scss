@@ -211,6 +211,7 @@ nav .navlink-description span {
 #intro img {
   width: 40%;
   margin-left: 3px;
+  flex-shrink: 0;
 }
 
 #intro-text {

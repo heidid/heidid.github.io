@@ -1,4 +1,5 @@
 ---
+title: Flexport software engineering internship
 purpose: design systems & frontend engineering
 intro: |
   ## Flexport internship

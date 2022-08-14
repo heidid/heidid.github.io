@@ -1,5 +1,6 @@
 ---
 main_intro: true
+title: About
 ---
 
 ## I have experience with...

@@ -1,4 +1,5 @@
 ---
+title: SITELAB Urban Studio design research
 learning: urban design & placemaking 
 intro: |
   ## SITELAB Urban Studio

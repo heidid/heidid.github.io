@@ -1,14 +1,15 @@
 ---
+title: Keewi frontend engineering internship
 intro: |
   ## Keewi internship
 
   **Time period:** March 2017 – May 2018
 
-  **Role:** Front-End Engineering Intern
+  **Role:** Frontend Engineering Intern
 
   **Keywords:** HTML, CSS, Bootstrap, WordPress, JavaScript (CoffeeScript, React), Django, Photoshop, Illustrator, Invision, product design, UI/UX design
 
-  **URL:** [https://www.keewi-inc.com](https://www.keewi-inc.com)
+  **URL:** [https://www.keewi-inc.com (Wayback Machine link)](https://web.archive.org/web/20180819184755/https://www.keewi-inc.com/)
 
   I interned with Keewi over Summer 2017, and also worked with them remotely before and afterwards. I worked on a few projects, including redesigning their landing page, redesigning their mobile app, and adding features to their webapp.
 ---
@@ -17,7 +18,7 @@ intro: |
 Implemented new features in React, fixed front-end issues, and worked with Django backend.
 
 ## Landing Page
-I designed Keewi's corporate landing page and built it with Bootstrap. Check it out [live](https://www.keewi-inc.com)! I designed the icons in the Benefits section in Illustrator. I also created a custom WordPress theme that matches the landing page for their blog.
+I designed Keewi's corporate landing page and built it with Bootstrap. I designed the icons in the Benefits section in Illustrator. I also created a custom WordPress theme that matches the landing page for their blog.
 
 ![screenshot of landing page](landingpage.png)
 

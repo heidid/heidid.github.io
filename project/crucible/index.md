@@ -1,4 +1,5 @@
 ---
+title: The Crucible web design project
 purpose: UI/UX design & the human-centered design process
 intro: |
   ## The Crucible

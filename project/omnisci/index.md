@@ -1,4 +1,5 @@
 ---
+title: OmniSci product design project
 intro: |
   ## OmniSci (previously MapD)
 

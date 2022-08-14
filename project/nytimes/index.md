@@ -1,4 +1,5 @@
 ---
+title: New York Times Cooking internship
 purpose: frontend engineering
 intro: |
   ## New York Times internship

@@ -1,4 +1,5 @@
 ---
+title: EduPad product design project
 intro: |
   ## EduPad
 

@@ -1,4 +1,5 @@
 ---
+title: PayPal software engineering internship
 purpose: frontend engineering & UI design
 intro: |
   ## PayPal
